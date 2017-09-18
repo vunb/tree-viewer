@@ -1,0 +1,239 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	background-image: url(pagebg.gif);
+	background-repeat: repeat;
+	margin: 0 0 20px 0;
+}
+
+header {
+	z-index:10;
+}
+
+.fixed-header {
+	position: fixed;
+	top:0; left:0;
+	width: 100%; 
+}
+
+#titlebox {
+	font-size: 0.9em;
+	padding: 5px 10% 5px 10%;
+	height: 70px;
+	min-width: 600px;
+	background-size: cover;
+}
+
+#mobiletitle{
+	display: none;
+}
+
+#image {
+	background:url(me.png);
+	background-repeat:no-repeat;
+	background-size: 90% 90%;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 88px;
+	height: 66px;
+	float: left;
+}
+#name {
+	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+#affiliation{
+	font-size: 0.8em;
+	margin: 4px 0;
+	line-height: 1.4em;
+	float: none;
+}
+
+nav {
+	width: 100%;
+	min-width: 400px;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	background-color: #FFF;
+	z-index: 10;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-size: 1.1em;
+}
+
+ul#menu {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+
+ul#menu li {
+	font-size: 1.2em;
+	display: inline;
+} 
+
+ul#menu li a {
+	text-decoration: none;
+	color: #444;
+} 
+
+ul#menu li.selected {
+	font-weight: bold;
+	color: #5E5A80;
+}
+	
+div.wrapper {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.frame {
+	margin: 15px auto 0px auto;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+#imagelink {margin-right: 20px;}
+
+a#imagelink, a#imagelink:hover {
+	background: none;
+	border-bottom: none;
+    text-decoration: none;
+}
+
+li {margin:.5em 0 .7em 0;}
+
+h3 {
+    margin:0 0 .2em 0;
+    font-size: 1.4em;
+}
+
+h4 {margin:0 0 .5em 0;}
+
+p {margin: .5em 0;}
+
+a {
+	color: #1200AA;
+	text-decoration: none;
+}
+
+a.title, a.title:hover {
+    color: #000;
+	text-decoration: none;
+	border-bottom: none;
+	background: none;
+}
+
+a:hover {
+    color: #7c8059;
+    text-decoration: none;
+	border-bottom: 1px dashed #7c8059;
+	background: #E0E4BD;
+}
+
+.year .year-title {
+	font-size: x-large;
+	margin-top: 1%;
+	margin-bottom: -0.5%;
+}
+
+.pub {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pub .title {
+    font-weight: bold;
+}
+
+.pub .author {
+    font-style: italic;
+}
+
+.pub .journal {
+
+}
+
+.pub .downloads {
+    display: inline-block;
+    padding: 3px;
+}
+
+.pub .notes {
+    margin-left: 10px;
+    font-size: 0.85em;
+}
+
+.pub .bib-text{
+    margin: 0 20px;
+    white-space: pre-wrap;
+    display: none;
+    background-color: #ECECEC;
+}
+
+table tr.data,
+table tr.data th {
+	background-color: #FFFFFF;
+}
+
+table tr.data:hover,
+table tr.data:hover th {
+	background-color: #C0C0C0;
+}
+
+table.sortable thead {
+    background-color:#BBB;
+    color:#000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#image-options {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+#image-options li {
+    display: inline-block;
+    width: 20%;
+}
+
+#image-options img{
+    background: white;
+}
+
+#clustrmaps-widget{
+    margin: -10px auto 0 auto;
+}
+
+#clustrmaps-widget img{
+    border-radius: 7px;
+}
+
+#links{ text-align: center;}
+
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}

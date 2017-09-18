@@ -1,0 +1,180 @@
+body {
+	text-align : center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	background-color: #DDD;
+}
+
+header {
+	height:80px;
+	font-size: .55em;
+	z-index:10;
+}
+
+.fixed-header {
+	position: fixed;
+	top:0; left:0;
+	width: 100%; 
+}
+
+#image {
+	background:none;
+}
+
+nav {
+	width: 100%;
+	height: 30px;
+	min-width: 200px;
+	background-color: #FFF;
+	z-index: 10;
+	margin-bottom: 0;
+}
+	
+div.wrapper {
+	text-align: left;
+	margin: 0;
+}
+
+ul#menu {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+
+ul#menu li {
+	font-size: 1.2em;
+	display: inline;
+	margin: 0;
+} 
+
+ul#menu li a {
+	text-decoration: none;
+	color: #444;
+} 
+
+ul#menu li.selected {
+	font-weight: bold;
+	color: #5E5A80;
+}
+
+#titlebox {
+	display: none;
+}
+
+#mobiletitle{
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+div.frame {
+	border-radius:4px;
+	padding: 5px;
+	background-color: #FFF;
+	box-shadow: none;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+#imagelink {margin-right: 10px;}
+
+a#imagelink {
+	background: none;
+	border-bottom: none;
+    text-decoration: none;
+}
+
+ul {margin-left: -15px;}
+
+li {margin:.5em 0 .7em -10px;}
+
+h3 {
+    margin:0 0 .2em 0;
+    font-size: 1.4em;
+}
+
+h4 {margin:0 0 .5em 0;}
+
+p {margin: .5em 0;}
+
+a {
+	color: #1200AA;
+	text-decoration: none;
+}
+
+a.title {
+    color: #000;
+	text-decoration: none;
+	border-bottom: none;
+	background: none;
+}
+
+.pub {
+    margin-top: 10px;
+    margin-left: 10px;
+	font-size: .9em;
+	text-align: left;
+}
+
+.pub .title {
+    font-weight: bold;
+}
+
+.pub .author {
+    font-style: italic;
+}
+
+.pub .journal {}
+
+.pub .downloads {
+    display: inline-block;
+    padding: 3px;
+}
+
+.pub .notes {
+    margin-left: 10px;
+    font-size: 0.85em;
+}
+
+.pub .bib-text{
+    margin: 0 20px;
+    white-space: pre-wrap;
+    display: none;
+    background-color: #ECECEC;
+}
+
+table tr.data,
+table tr.data th {
+	font-size: .6em;
+}
+
+table.sortable thead {
+    background-color:#BBB;
+    color:#000;
+	font-size: .6em;
+}
+
+#image-options {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+#image-options li {
+    display: inline-block;
+    width: 33%;
+}
+
+#image-options img{
+    background: white;
+}
+
+#clustrmaps-widget{
+	display: none;
+}
+
+#clustrmaps-widget img{
+    border-radius: 7px;
+}
